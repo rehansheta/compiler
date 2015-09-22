@@ -13,13 +13,15 @@ It also contains the following language extensions:
 2. Supports multi-line comments whose beginning is marked by some (sequence of) character(s) and whose ending is marked by some (sequence of) character(s)
 3. Supports "char" base type
 
-# Outputs
+# Description
 
-Output file is named as Inputfile's base name followed by ".pt.dot", ".ast.dot", ".iloc.cgf.dot" , ".s" and ".ssa.dot"
+1. Output file is named as Inputfile's base name followed by ".pt.dot", ".ast.dot", ".iloc.cgf.dot" , ".s" and ".ssa.dot"
+2. compiler/test-inputs -- test inputs
 
-# compiler/test-inputs
+# Run
 
-test inputs
+1. Compile all the .java files (javac -d build -sourcepath src src/edu/utsa/tl13/Compiler.java)
+2. Run Compiler.java program with inputfile name given as first parameter. (java -cp build/ edu.utsa.tl13.Compiler test-inputs/sqrt.tl13)
 
 # Project Details
 
