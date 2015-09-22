@@ -1,10 +1,10 @@
 # Compiler
 
-A complete compiler for TL13 programming language, a simplified subset of Pascal. It includes four phase/parts: 
+A complete compiler for TL13 programming language, a simplified subset of Pascal. It includes these four phases/parts: 
 
 1. Scanner -- scans the LL(1) language
 2. Predictive Recursive Descent Parser -- Its a top-down parser. For a syntactically valid input program, it outputs a Graphviz DOT file containing the program's parse tree
-3. Core -- Its final output is MIPS assembly code. Intermediate output includes a type-annotated Abstract Syntax Tree (AST) and a Control Flow Graph (CFG) labeled with ILOC instructions
+3. Core -- It does type checking and its final output is MIPS assembly code. Intermediate output includes a type-annotated Abstract Syntax Tree (AST) and a Control Flow Graph (CFG) labeled with ILOC instructions
 4. Optimizations -- It includes translation into SSA form using * algorithm
 
 It also contains the following language extensions:
@@ -20,8 +20,9 @@ It also contains the following language extensions:
 
 # Run
 
-1. Compile all the .java files (javac -d build -sourcepath src src/edu/utsa/tl13/Compiler.java)
-2. Run Compiler.java program with inputfile name given as first parameter. (java -cp build/ edu.utsa.tl13.Compiler test-inputs/sqrt.tl13)
+1. install Graphviz
+2. Compile all the .java files (javac -d build -sourcepath src src/edu/utsa/tl13/Compiler.java)
+3. Run Compiler.java program with inputfile name given as first parameter. (java -cp build/ edu.utsa.tl13.Compiler test-inputs/sqrt.tl13)
 
 # Project Details
 
