@@ -1,0 +1,20 @@
+% finding avg of a given number of inputs.
+program 
+   var N as int; 
+   var I as int ; 
+   var T as int ;
+   varTOTALasint ;
+begin 
+   T := readInt ; % number of input to be taken
+   TOTAL:= 0 ;
+
+   I:=1; 
+   while I<=T do 
+     
+	  N := readInt ;
+	  TOTAL := TOTAL + N;
+      I:=I+1; 
+   end; 
+   
+   writeIntTOTAL div T ;
+end 

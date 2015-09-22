@@ -1,0 +1,30 @@
+program
+   var N1 as int ; 
+   var N2 as int ; 
+   car NEXT as  ; 
+   var MAX as int ; 
+begin 
+   MAX := readInt ;
+
+   N1 := 0 ; 
+   N2 := 1 ; 
+
+   writeInt N1 ; 
+
+   while N2 < MAX do 
+      writeInt N2 ; 
+      NEXT := N1 + N2 ; 
+      N1 := N2 ; 
+      N2 := NEXT ; 
+   end ; 
+   
+   if SMALLER > BIGGER then
+      TEMP := SMALLER ;
+      SMALLER := BIGGER ;
+      BIGGER := TEMP ;
+	else 
+      TEMP := SMALLER ;
+      SMALLER := BIGGER ;
+      BIGGER := TEMP ;
+   end ;
+end 

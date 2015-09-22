@@ -1,0 +1,8 @@
+program 
+ 
+  var X as bool ;
+  var N as int ; 
+begin 
+
+end 
+end 

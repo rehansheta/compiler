@@ -1,0 +1,19 @@
+program
+	var X as int ;
+	var C as char ;
+	var D as char ;
+	var B as bool ;
+begin
+	X := readInt ;
+	D := readChar ;
+	C := 'c' ;
+	C := C + 1 ;
+	B := D > C ;
+	writeInt 2 * X ;
+	writeChar C ;
+	writeInt C;
+	writeChar D ;
+	writeChar C * D ;
+	writeInt C * D ;
+	writeChar B ;
+end

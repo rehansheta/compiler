@@ -1,0 +1,20 @@
+program
+    var X as int ;
+    var Y as bool ;
+	var X as int ;
+begin
+    Y := readInt ;
+	writeInt X ;
+	X := 100000000000 ;
+    if X = 10 then
+      
+        X := X - false ;
+    end ;
+    while X <= false do
+        
+            Y := false ;
+        
+    end ;
+    writeInt Y ;
+end
+

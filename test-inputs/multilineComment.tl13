@@ -1,0 +1,31 @@
+%this is comment
+program
+	var X as int ;
+	var Y as bool ;
+	begin
+	X := readInt ;
+
+	if X>=1 then
+		X:=Xdiv2 ;
+		X:=X-1 ;
+	end ;/# this is a multi line comment #\Y := true;
+	/# this is comments extension 
+	this is a comment #\ Y := true;
+	
+	/#this is comment         #\
+
+	while Y do
+	/#this is comment
+this is comment#\
+
+if X > 100 then
+	while Y do
+	X := X div 10 ;
+	end ;
+	X := X * ( 1 + X ) ;
+	else
+	Y := false ;
+	end ;
+	end ;
+	writeInt X ;
+end

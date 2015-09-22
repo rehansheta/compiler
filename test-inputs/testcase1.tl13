@@ -1,0 +1,18 @@
+program 
+ 
+  var X as bool ;
+  var N as int ; 
+begin 
+
+	while (  X   )  do
+		N := 1000000000000 ;
+			while (  X   )  do
+				N := 1000000000000 + ( 1 + ( 2 + 3 ) ) ;
+				if ( X ) then 
+					X := true ;
+				else 
+					X := false ;
+				end ;
+			end ;
+	end ;
+end
